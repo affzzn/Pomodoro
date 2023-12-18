@@ -1,10 +1,8 @@
 :root {
-    font-size: 62.5%; /* 1rem = 10px */
-
+    font-size: 62.5%;
     --color-primary: hsl(235, 35%, 19%);
     --color-secondary: hsl(358, 78%, 69%);
     --color-font: hsla(0, 0%, 100%, 0.902);
-
     --color-shadow: hsl(235, 36%, 35%);
 }
 
@@ -14,24 +12,19 @@
     box-sizing: border-box;
 }
 
-
 html, body {
     height: 100%;
     background-color: var(--color-primary);
     font-size: 1.6rem;
-    font-family: 'Open sans';
+    font-family: 'Open Sans';
 }
 
 p, i, h1 {
     color: var(--color-font);
 }
 
-i {
-    font: 3.2rem;
-}
-
-h1 {
-    font: 3.2rem;
+i, h1, .time p {
+    font-size: 3.2rem;
 }
 
 section {
@@ -40,17 +33,15 @@ section {
     height: 100%;
 }
 
-
 .container {
     width: min(42.5rem, 100%);
-    margin-inline: auto;
-    padding-inline: 2rem;
+    margin: auto;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 
 .panel {
     display: grid;
@@ -61,10 +52,7 @@ section {
     padding: 1rem;
     border-radius: 10rem;
     box-shadow: 0px 0px 5px 10px var(--color-shadow);
-    -webkit-box-shadow: 0px 0px 5px 10px var(--color-shadow);
-    -moz-box-shadow: 0px 0px 5px 10px var(--color-shadow);
 }
-
 
 .panel p {
     opacity: 0.8;
@@ -83,10 +71,8 @@ section {
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 15px 10px var(--color-shadow); 
     box-shadow: 0px 0px 15px 10px var(--color-shadow);
 }
-
 
 .circle {
     display: flex;
@@ -98,7 +84,6 @@ section {
     background-color: var(--color-secondary);
     position: relative;
 }
-
 
 .circle::before {
     content: '';
@@ -125,7 +110,6 @@ section {
     margin-inline: 1rem;
 }
 
-
 .controls {
     margin-top: 3rem;
     display: flex;
@@ -140,7 +124,7 @@ section {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 1rem; /* Adjust this margin as needed */
+    margin-top: 1rem;
 }
 
 .controls button:hover {
@@ -159,7 +143,7 @@ section {
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 1rem; /* Adjust this margin as needed */
+    margin-top: 1rem;
     display: none;
 }
 
@@ -167,9 +151,6 @@ section {
     background-color: var(--color-secondary);
     color: var(--color-font);
 }
-
-
-
 
 .modal {
     display: none;
@@ -180,7 +161,7 @@ section {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
@@ -188,7 +169,7 @@ section {
     margin: 10% auto;
     padding: 20px;
     border: 1px solid var(--color-secondary);
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
     box-shadow: 0px 0px 15px 10px var(--color-shadow);
 }
 
