@@ -127,11 +127,6 @@ section {
     margin-top: 1rem;
 }
 
-.controls button:hover {
-    background-color: var(--color-secondary);
-    color: var(--color-font);
-}
-
 .controls #reset {
     display: none;
 }
@@ -145,11 +140,6 @@ section {
     cursor: pointer;
     margin-top: 1rem;
     display: none;
-}
-
-.controls #reset:hover {
-    background-color: var(--color-secondary);
-    color: var(--color-font);
 }
 
 .modal {
@@ -181,13 +171,7 @@ section {
     cursor: pointer;
 }
 
-.close:hover {
-    color: var(--color-font);
-}
-
 label {
-    display: block;
-    margin: 10px 0;
     color: var(--color-font);
 }
 
@@ -205,9 +189,4 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: var(--color-font);
-    color: var(--color-secondary);
 }
