@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Pomodoro App! This simple and effective productivity tool helps you stay focused, manage your time efficiently, and boost your productivity. With customizable color themes and font options, you can personalize your Pomodoro experience and make it visually appealing.
+Welcome to the Pomodoro App! This simple and effective productivity tool helps you stay focused, manage your time efficiently, and boost your productivity.
 
 
 ## Demo
