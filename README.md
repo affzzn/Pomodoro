@@ -7,7 +7,7 @@ Welcome to the Pomodoro App! This simple and effective productivity tool helps y
 
 ## Demo
 
-Check out the [live demo](https://zffvn.github.io/Pomodoro/) of the Pomodoro App to see it in action!
+Check out the [live demo](https://affzzn.github.io/Pomodoro/) of the Pomodoro App to see it in action!
 
 
 ## Features
